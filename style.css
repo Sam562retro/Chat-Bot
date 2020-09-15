@@ -1,0 +1,99 @@
+#holder{
+  background-color: blue;
+  width: 300px;
+  height: 500px;
+  border: solid 2px blue;
+  border-radius: 50px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 2px 2px 50px black;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  margin-bottom: 60px;
+  margin-right: 60px;
+  display: none;
+}
+#open{
+  background-color: blue;
+  width: 50px;
+  height: 50px;
+  border: solid 2px blue;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  box-shadow: 1px 1px 10px black;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  margin-bottom: 60px;
+  color: white;
+  margin-right: 60px;
+}
+#message{
+  height: 340px;
+  background-color: white;
+  border: solid 5px white;
+  padding-right: 0;
+  padding-left: 0;
+  overflow-y: scroll;
+}
+#input{
+  height: 50px;
+  background-color: blue;
+}
+#entry{
+  height: 43px;
+  width: 230px;
+  padding: 0;
+  border: 0;
+  margin: 0;
+
+}
+.button{
+  height: 43px;
+  border: solid 1px blue;
+  padding: 0;
+  margin: 0;
+  width: 60px;
+}
+.head{
+  height: 50px;
+  text-align: right;
+}
+#close{
+  margin-right: 20px;
+  margin-top: 10px;
+  border-radius: 50%; 
+  background-color: lightskyblue;
+  color: white;
+  border: solid 1px blue
+}
+#close:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+*{
+  outline: none;
+}
+.userMess{
+  background-color: lightskyblue;
+  border: solid 2px lightskyblue;
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 10px;
+  text-align: right;
+}
+.botMess{
+  background-color: lightgrey;
+  border: solid 2px lightgray;
+  border-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 50px;
+  text-align: left;
+}

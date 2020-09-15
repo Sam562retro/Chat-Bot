@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div id="holder">
+      <div class="head">
+        <button id="close" onclick="document.getElementById('holder').style.display = 'none'; document.getElementById('open').style.display = 'block'; "> X </button>
+      </div>
+      <div id="message">
+        <p class="botMess">Hi. Please, enter the number you want to check is armstrong.</p>
+      </div>
+      <hr style="padding: 1px; margin: 0;">
+      <div id="input">
+        <input type="text" class="entry" id="entry">
+        <input type="submit" class="button" onclick="mess()">
+      </div> 
+    <div class="foot">
+    </div>
+    </div>
+    <button id="open" onclick="document.getElementById('holder').style.display = 'block'; document.getElementById('open').style.display = 'none'; ">Chat</button>
+  </body>
+</html>
